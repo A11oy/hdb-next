@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@harperdb/http-router": "^0.1.16",
     "@harperdb/nextjs": "^0.0.2",
     "harperdb": "^4.3.21",
     "next": "^14.2.7",

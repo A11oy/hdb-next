@@ -2,6 +2,10 @@ graphqlSchema:
   files: '*.graphql'
 jsResource:
   files: './resources.js'
+'@harperdb/http-router':
+  package: '@harperdb/http-router' # this can include a @version number if desired
+  files: '*.*js' # Load js files so it can find the router.js file and config
 '@harperdb/nextjs':
   package: '@harperdb/nextjs'
   files: '/*'
+  prebuilt: true
